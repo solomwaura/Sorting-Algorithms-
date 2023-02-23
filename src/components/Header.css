@@ -43,10 +43,6 @@ a {
   background-color: rgb(8, 8, 8);
   transition: 0.5s ease all;
   z-index: 300;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 
 .header__bar__title {
