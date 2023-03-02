@@ -1,12 +1,10 @@
 import React from 'react'
-import Home from '../components/pathfinder/home/Home';
-import Navbar from '../components/pathfinder/navbar';
+import Pathfinder from '../components/pathfinderComponents/pathfinder';
 
 function Path () {
   return (
     <div>
-        <Navbar/>
-        <Home />
+       <Pathfinder/>
         
     </div>
   )
