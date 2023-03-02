@@ -1,15 +1,26 @@
 import './App.css';
-import Header from './components/Header';
-import Home from './components/Home';
+
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes
+  
+
+} from "react-router-dom";
+import Base from './pages/Base';
+import Path from './pages/Path';
+import Test from './pages/Test';
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-          <Header />
-          <Home />
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Base/>}></Route>
+        <Route path="/path" element={<Path />}></Route>
+        <Route path="/nqueen" element={<Test />}></Route>
+      </Routes>
+    </Router>
   );
 }
 

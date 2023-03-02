@@ -30,6 +30,9 @@ const BubbleSort = () =>{
                      temp = ids[j];
                      ids[j] = ids[j-1];
                      ids[j-1] = temp;
+
+                     let log ="swap the two values";
+                     
                      
                      document.getElementById(ids[j]).style.transform = `translateX(${j*11}px)`;
                      

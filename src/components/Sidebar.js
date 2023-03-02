@@ -119,7 +119,7 @@ function Sidebar() {
          />
       </div>
 
-      <div className="sidebar__option">
+      <div className="sidebar__option" id='colory'>
          <label htmlFor="color">Color: </label>
          <select name="color" id="color" onChange = {(e) => handleColor(e.target.value)} disabled = {myState.play? true: false}>
             <option value="rgb(0, 149, 199)" style={{color:'rgb(0, 149, 199)'}}>Blue</option> 

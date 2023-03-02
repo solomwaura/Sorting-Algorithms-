@@ -1,3 +1,7 @@
 .console{
-    background-color: aqua;
+    background-color: gray;
+}
+.log{
+    background-color: black;
+    padding: 15px;
 }

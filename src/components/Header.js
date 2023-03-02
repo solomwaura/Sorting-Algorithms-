@@ -22,7 +22,7 @@ function Header() {
 
       <div className="header-logo"><span>Artifact Algo Visualisation</span></div>
       <div className="header__options">
-         
+         <a href="/path">Path Finding</a>
       </div>
    </div>
   )

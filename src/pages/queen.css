@@ -1,0 +1,12 @@
+.chessCol{
+    background-color: #eee;;
+     height:50px;
+   }
+   body{
+     background:#333;
+   }
+   
+   .chessBoardArea{
+     border:1px solid #aaa;
+     min-height:90vh;
+   }
